@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+<meta charset=utf-8 />
+<title>  Louise Deguine </title>
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <!--   <link type="text/css" rel="stylesheet" href="bootstrap.css"/>-->
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    
+    <!-- jQuery library -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"</script>
+    
+    <!-- FANCYBOX Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    
+    <!-- FancyBox main JS and CSS files -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+    
+    
+    <!-- MASONRY -->
+    <script src="js/jquery.masonry.min.js"></script>
+    
+    
+    <!--RUN FANCYBOX-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+                          
+                          $('.fancybox').fancybox();
+                          });
+    </script>
+
+
+</head>
+<body>
+<header >
+    
+    <div class="logo">
+        <div class="center">
+        <p>LOUISE </br>DEGUINE</p>
+        </div>
+    </div>
+    
+        
+        <div class="desktop">
+            
+            <ul class="center">
+                
+                <li><a href='index.html' >works</a></li>
+                <li><a href='contact.html' class='current'>contact</a></li>
+                <li><a href='about.html' >about</a></li>
+                <li><a href='resume.html' >resume</a></li>
+
+            </ul>
+       </div>
+        
+        
+        <div class="mobile">
+
+            <button>Toggle</button>
+
+            <div>
+                <a href='index.html' >works</a>
+                <a href='contact.html' class='current'>contact</a>
+                <a href='about.html' >about</a>
+                <a href='resume.html' >resume</a>
+            </div>
+            
+            <script>
+                
+                $('button').click(function() {
+                                  $(this).toggleClass('expanded').siblings('div').slideToggle();
+                                  });
+                </script>
+        </div>
+    
+</header>
+
+<hbackground>
+    menu
+</hbackground>
+
+ <section class="content">
+
+
+<hello>
+<div id="top">
+    
+    <div class="center">
+        <titre> CONTACT ME </titre>
+        <h2> You have any question or you like my work?</br>
+            Please feel free to reach out! </h2>
+    </div>
+</div>
+
+
+        <div id="bottom">
+                <div id="side">
+                    <div class="center">
+                    
+                    <a class="contact" href="mailto:louise.deguine@gmail.com"><img src="images/icons/mail.svg"/></a>
+                    <h2 class="contact">louise.deguine@gmail.com</h2>
+                    
+                 
+                    </div>
+                </div>
+                <div id="side">
+                    <div class="center">
+                    <a class="contact" href="tel:+33650806981"> <img src="images/icons/phone.svg"/></a>
+                    <h2 class="contact">+33 (0)6 50 80 69 81</h2>
+                    </div>
+                </div>
+
+
+        </div>
+
+</hello>
+
+</section>
+</body>
+
+
+
+
+
+
+
+</html>
